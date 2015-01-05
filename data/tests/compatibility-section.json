@@ -1,0 +1,8 @@
+{
+  "id"      : "compatibility-section",
+  "group"   : "basic-structure",
+  "level"   : "warning",
+  "path"    : "/[^/]+/docs/Web/.+",
+  "selector": "h2#Browser_compatibility",
+  "expect"  : 1
+}

@@ -1,0 +1,9 @@
+{
+  "id"      : "empty-elements",
+  "group"   : "basic-structure",
+  "level"   : "error",
+  "path"    : ".*",
+  "selector": "#wikiArticle *",
+  "text"    : "^$",
+  "expect"  : 0
+}

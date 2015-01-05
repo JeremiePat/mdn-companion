@@ -1,0 +1,8 @@
+{
+  "id"      : "basic-link-test",
+  "group"   : "link-group",
+  "level"   : "warning",
+  "path"    : ".*",
+  "link"    : "https:\\/\\/developer\\.mozilla\\.org",
+  "expect"  : 1
+}

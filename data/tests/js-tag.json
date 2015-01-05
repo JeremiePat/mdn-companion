@@ -1,0 +1,8 @@
+{
+  "id"      : "js-tag",
+  "group"   : "javascript",
+  "level"   : "warning",
+  "path"    : "/[^/]+/docs/Web/JavaScript/.+",
+  "tags"    : ["JavaScript"],
+  "expect"  : 1
+}

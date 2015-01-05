@@ -1,0 +1,9 @@
+{
+  "name": "mdn-companion",
+  "title": "MDN companion",
+  "id": "jid1-5xEZUD3C85hBSg",
+  "description": "An add-on to make life of MDN contributors easier",
+  "author": "Jeremie Patonnier (http://jeremie.patonnier.net)",
+  "license": "MPL 2.0",
+  "version": "1.0"
+}

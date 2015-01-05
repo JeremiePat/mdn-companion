@@ -1,0 +1,8 @@
+{
+  "id"      : "basic-selector-test",
+  "group"   : "selector-group",
+  "level"   : "warning",
+  "path"    : ".*",
+  "selector": "body div",
+  "expect"  : -1
+}

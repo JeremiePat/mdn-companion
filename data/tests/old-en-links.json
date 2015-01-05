@@ -1,0 +1,8 @@
+{
+  "id"      : "old-en-links",
+  "group"   : "link-group",
+  "level"   : "error",
+  "path"    : ".*",
+  "link"    : "^/?en/.*",
+  "expect"  : 0
+}
