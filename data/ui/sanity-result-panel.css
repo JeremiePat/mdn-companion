@@ -1,4 +1,11 @@
 
+/* FONTS
+ * ------------------------------------------------------------------------- */
+@font-face {
+  font-family: "icomoon";
+  src: url("assets/icomoon.woff");
+}
+
 /* BASIC STYLE
  * ------------------------------------------------------------------------- */
 body {
@@ -16,9 +23,19 @@ section + section h1 {
 }
 
 button {
-  height: 1em;
-  vertical-align: middle;
-  width: 1em;
+  font-family  : "icomoon";
+  color        :inherit;
+  box-sizing   : border-box;
+  height       : 1.2rem;
+  width        : 1.2rem;
+  padding      : 0;
+  margin       : 0 0 0 2px;
+  background   : none;
+  border       : 1px solid currentColor;
+  border-radius: 3px;
+  display      : block;
+  float        : left;
+  cursor       : pointer;
 }
 
 
@@ -71,6 +88,10 @@ button {
 }
 
 .icon, .action {
+  font-family   : "icomoon";
+  font-size     : 0.8rem;
+  line-height   : 1.2rem;
+  padding       : 0 3px 0 1px;
   background    : #090;
   color         : #FFF;
   text-align    : center;
@@ -79,7 +100,7 @@ button {
 }
 
 .icon::before{
-  content: '\002713';
+  content: '\00ea10';
 }
 
 .title {
@@ -94,7 +115,7 @@ button {
 .action {
   text-align  : right;
   line-height : 1.2rem;
-  padding-left: 2px;
+  padding     : 0;
 }
 
 .details {
@@ -122,6 +143,7 @@ button {
 
 .show .action {
   border-bottom-left-radius: 5px;
+  padding-bottom: 2px;
 }
 
 .show .details {
@@ -132,16 +154,16 @@ button {
 
 /* Change behavior on "warning" */
 .warning {
-  border-color: #EA0;
+  border-color: #D80;
 }
 
 .warning .icon,
 .warning .action {
-  background: #EA0;
+  background: #D80;
 }
 
 .warning .icon::before{
-  content: '\002717';
+  content: '\00ea07';
 }
 
 /* Change behavior on "error" */
@@ -155,7 +177,7 @@ button {
 }
 
 .error .icon::before{
-  content: '\002717';
+  content: '\00ea0f';
 }
 
 /* Change behavior on "danger" */
@@ -169,77 +191,14 @@ button {
 }
 
 .danger .icon::before{
-  content: '\002717';
+  content: '\00e9a9';
 }
 
-/*table {
-  width          : 100%;
-  font-size      : .8em;
-  margin         : 0 0 1rem 0;
-  border-collapse: collapse;
-  border-spacing : 0;
+/* Action button */
+.edit::before {
+  content: '\00e906';
 }
 
-td {
-  padding: .2em .1em;
-  text-align: left;
+.more::before {
+  content: '\00ea0c';
 }
-
-td:nth-of-type(3) {
-  text-align: right;
-}
-
-.hide {
-  display:none;
-}
-
-.primary td {
-  color     : white;
-  background: #090;
-  vertical-align: middle;
-}
-
-.primary td:nth-of-type(1) {
-  width: 1em;
-  text-align: center;
-}
-
-.primary td:nth-of-type(1)::before {
-  content: '\002713';
-  padding: 0 .3em;
-}
-
-.danger td { background: #000; }
-.danger td:nth-of-type(1)::before { content: '\002620'; }
-
-.error td { background: #C00; }
-.error td:nth-of-type(1)::before { content: '\002717'; }
-
-.warning td { color: black; background: #F90; }
-.warning td:nth-of-type(1)::before { content: '\0026A0'; }
-
-.more::before { content: '+'; }
-.edit::before { content: '\00270E'; }
-
-button {
-  border    : 1px solid currentColor;
-  border-radius: 3px;
-  background: transparent;
-  margin    : .1em;
-  padding   : 0;
-  color     : inherit;
-  cursor    : pointer;
-}
-
-button + button {
-  margin-left: .3em;
-}
-
-.description {
-  font-style: italic;
-}
-
-.comment {
-  margin-top: .5em;
-  font-weight: bold;
-}*/
